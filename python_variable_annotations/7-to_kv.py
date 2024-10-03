@@ -12,4 +12,4 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
         Return:
             Tuple.
     """
-    return (k, pow(v, 2)
+    return (k, pow(v, 2))
